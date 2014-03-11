@@ -1,0 +1,101 @@
+\documentclass[11pt,a4paper,onecolumn]{moderncv}
+\usepackage[latin1]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+\moderncvstyle{casual}
+\moderncvcolor{blue}
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand*{\cventry}[7][.25em]{%
+  \cvitem[#1]{#2}{%
+    {\bfseries#3}%
+    \ifthenelse{\equal{#4}{}}{}{, {\slshape#4}}%
+    \ifthenelse{\equal{#5}{}}{}{, #5}%
+    \ifthenelse{\equal{#6}{}}{}{, #6}%
+    \strut%
+    \ifx&#7&%
+      \else{\hspace{0.2cm}\begin{minipage}[t]{\linewidth}\small#7\end{minipage}}\fi}}
+\setlength{\hintscolumnwidth}{3.5cm}
+\nopagenumbers{}
+
+\firstname{Pablo}
+\familyname{Riutort Grande}
+
+\title{Curriculum Vitae}
+\photo[70pt][0.4pt]{pictures/foto} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+
+\begin{document}
+\makecvtitle
+\vspace{-1.5cm}
+
+%\cventry{Columna izquierda}{Negrita}{Cursiva}{Texto4}{Texto5}{Pequeño}
+%\cvlistdoubleitem{Item 2}{Item 3}
+
+\section{Información personal}
+\cvitem{Dirección}{C/Ca'n Baró num. 9, 07014, Palma}{}{}{}{}
+\cvitem{Teléfono}{663880793}
+\cvitem{Correo electrónico}{pablo.riutort@gmail.com}{}{}{}{}
+\cvitem{Fecha de nacimiento}{25 de Julio de 1990}{}{}{}{}
+\cvitem{Lugar de nacimiento}{Granada, España}{}{}{}{}
+
+\section{Educación}
+\cventry{2002--2006}{ESO}{IES Berenguer d'Anoia}{Inca}{}{}
+\cventry{2007--2008}{Bachillerato Científico}{IES Berenguer d'Anoia}{Inca}{}{}
+\cventry{2008--2009}{Bachillerato Científico}{IES Ramon Llull}{Palma}{}{}
+\cventry{2009--Actualidad}{Grado de Ingeniería Informática}{Universitat de les Illes Balears (UIB)}{}{}{}
+
+\section{Experiencia}
+\cventry{04/2013}{Megathon}{\textsc{MICTT}, Parc Bit}{Competición de desarrollo de aplicaciones}{}{}
+\cvitem{}{Participé en el diseño y creación de una aplicación para Windows 8 (todavía en desarrollo)}
+\cventry{08/2013}{Ganador de la beca Talentum}{\textsc{Telefónica}}{}{}{}
+\cvitem{}{Talentum Startups es un programa para estudiantes que quieran mejorar la sociedad a través de la tecnología. Los estudiantes puedan desarrollar sus ideas de innovación con el apoyo de Telefónica a través de una beca en una Startups asociada}
+\cventry{08/2013 -- 01/2014}{Programador web}{\textsc{Mola.com}, Parc Bit}{Beca Talentum de Telefónica}{}{}
+\subsection{Proyectos}
+\cvitem{Geniuzz.com}{Participé en el mantenimiento del portal de compraventa de pequeños servicios por Internet, Geniuzz.com. Principalmente en tareas de diseño}
+\cvitem{Zelebri.com}{Participé en el desarrollo de la web Zelebri.com, que ofrece experiencias gastronómicas exclusivas}
+\cvitem{Proyectos personales}{Actualmente intento desarrollar un blog en Django como aprendizaje complementario}
+
+\section{Informática}
+\subsection{Programación}
+\cvitem{}{Java}{}{}{}{}
+\cvitem{}{C}{}{}{}{}
+\cvitem{}{Python}{}{}{}{}
+\cvitem{}{Ada}{}{}{}{}
+\cvitem{}{HTML5}{}{}{}{}
+\cvitem{}{CSS3}{}{}{}{}
+\cvitem{}{JavaScript}{}{}{}{}
+\cvitem{}{jQuery}{}{}{}{}
+\cvitem{}{AJAX}{}{}{}{}
+\cvitem{}{PHP + Zend Framework}{}{}{}{}
+\cvitem{Control de versiones}{Git, SVN}{}{}{}{}
+\cvitem{Aprendiendo}{Django Framework, Lua}{}{}{}{}
+
+\subsection{Bases de Datos}
+\cvitem{}{Diseño y creación de bases de datos, UML}{}{}{}{}
+\cvitem{}{PostgreSQL}{}{}{}{}
+\cvitem{}{MySQL}{}{}{}{}
+
+\subsection{Sistemas Operativos}
+\cvitem{Avanzado}{Windows}{}{}{}{}
+\cvitem{Intermedio}{Linux}{}{}{}{}
+\cvitem{Básico}{Mac OSX}{}{}{}{}
+
+\subsection{Ofimática}
+\cvitem{Intermedio}{\LaTeX, Libre Office, Microsoft Word, Power Point}{}{}{}{}
+
+\section{Idiomas}
+\cvitem{Español}{Lengua materna}{}{}{}{}
+\cvitem{Inglés}{Comprensión oral y escrita, nivel de conversación alto.}{}{}{}{}
+\cvitem{Catalán}{Segunda Lengua}{}{}{}{}
+
+\section{Formación complementaria}
+\cventry{2012}{Obtención del nivel de conocimiento de lengua extranjera (Inglés)}{UIB}{}{}{}
+\cventry{2008}{Curso de monitor de tiempo libre}{Moviment Escolta i Guiatge de Mallorca}{}{}{}
+\cventry{2008}{Título de manipulador de alimentos}{}{}{}{}
+
+\end{document}
