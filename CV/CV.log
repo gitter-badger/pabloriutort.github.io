@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.6.17)  29 JUN 2014 19:02
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.6.17)  29 JUN 2014 19:08
 entering extended mode
  %&-line parsing enabled.
 **CV.tex
@@ -545,10 +545,6 @@ LaTeX Info: Redefining \pageref on input line 33.
 
 \AtBeginShipoutBox=\box34
 \makecvtitlepicturebox=\box35
- <pictures/foto.png, id=51, 61.94571pt x 87.54994pt>
-File: pictures/foto.png Graphic file (type png)
-
-<use pictures/foto.png>
 \makecvtitlepicturewidth=\skip72
 
 Underfull \hbox (badness 10000) in paragraph at lines 34--34
@@ -616,26 +612,25 @@ Package microtype Info: Character `029' is missing
 (microtype)             Ignoring protrusion settings for this character.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./pictures/foto.png (PNG c
-opy)>] [2] (./CV.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./CV.aux) ) 
 Here is how much of TeX's memory you used:
- 10236 strings out of 495061
- 143482 string characters out of 1182621
- 269197 words of memory out of 3000000
- 13176 multiletter control sequences out of 15000+50000
+ 10229 strings out of 495061
+ 143374 string characters out of 1182621
+ 270169 words of memory out of 3000000
+ 13172 multiletter control sequences out of 15000+50000
  46677 words of font info for 53 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  42i,12n,53p,793b,347s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/sha
-re/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/l
-mss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf
-/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss
-o17.pfb>
-Output written on CV.pdf (2 pages, 288575 bytes).
+{/usr/shar
+e/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lm
+csc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb>
+Output written on CV.pdf (2 pages, 180752 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
+ 104 PDF objects out of 1000 (max. 8388607)
  15 named destinations out of 1000 (max. 500000)
- 14438 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 14433 words of extra memory for PDF output out of 17280 (max. 10000000)
 
